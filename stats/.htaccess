@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "mikethiessen.ca Statistics"
+AuthUserFile /var/chroot/home/content/50/7480450/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html
