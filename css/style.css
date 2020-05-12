@@ -22,7 +22,7 @@ p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldse
 
 /* TYPOGRAPHY */
 /* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
-h1, h2, h3, h4, h5, h6 { font-family: 'Open Sans Condensed', sans-serif; color:#222;text-shadow:1px 1px 1px rgba(0,0,0,.10)}
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; color:#222;text-shadow:1px 1px 1px rgba(0,0,0,.10)}
 h1 {margin: 0; font-size: 3.5em; line-height: 0.8em; margin-bottom: 0.4em; font-weight:700;} /* 60px / 72px */
 h2 {margin: 0; font-size: 3em; line-height: 0.8em; margin-bottom: 0.5em} /* 48px / 48px */
 h3 {margin: 0; font-size: 3em; line-height: 0.8em; margin-bottom: 0.5em} /* 36px / 48px */ 
@@ -107,11 +107,11 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 /* DEFAULT MOBILE STYLE */
 body {width: 100%; margin: 0 auto} /* Center page without wrapper */
 
-h1 { color:#ffffff; margin-bottom:15px; *margin-bottom:25px;}
-h2 { font-size:22px; color:white; margin-bottom: 20px; line-height:25px; }
+h1 { color:#ffffff; margin-left:30px; margin-right:30px; margin-bottom:15px; *margin-bottom:25px;}
+h2 { font-size:22px; color:white; margin-left:30px; margin-right:30px; margin-bottom: 20px; line-height:25px; }
 .container { position:absolute; top:5%; width:100%; vertical-align: middle; display:block; position:relative; }
 .full { width:96%; max-width:550px; margin:0px auto; vertical-align: middle; padding-bottom:20px; }
-p { margin-bottom:15px; }
+p { margin-bottom:15px; margin-left:30px; margin-right:30px; }
 p.intro { font-size:18px; font-family:'Georgia',Georgia,'Times New Roman',serif; }
 p span { color:#a2e0e9; }
 
