@@ -29,7 +29,7 @@ h3 {margin: 0; font-size: 3em; line-height: 0.8em; margin-bottom: 0.5em} /* 36px
 h4 {margin: 0; font-size: 1.2em; line-height: 1em; margin-bottom: 20px; font-family: 'Open Sans Condensed', sans-serif;} /* 24px / 24px */
 h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
 h6 {margin: 0; font-size: 1.125em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 1.3333333333333333333333333333333em} /* 18px / 24px */
-p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 14px; line-height: 1.3em; margin-bottom: 1.5em} /* 16px / 24px */
+p, ul, blockquote, pre, td, th, label {margin: 0; font-size: 18px; line-height: 1.3em; margin-bottom: 1.5em} /* 16px / 24px */
 small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
 
 /* CODE */
@@ -108,7 +108,7 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 body {width: 100%; margin: 0 auto} /* Center page without wrapper */
 
 h1 { color:#ffffff; margin-bottom:15px; *margin-bottom:25px;}
-h2 { font-size:18px; color:#a2e0e9; font-family:'Georgia',Georgia,'Times New Roman',serif; }
+h2 { font-size:22px; color:white; margin-bottom: 20px; line-height:25px; }
 .container { position:absolute; top:5%; width:100%; vertical-align: middle; display:block; position:relative; }
 .full { width:96%; max-width:550px; margin:0px auto; vertical-align: middle; padding-bottom:20px; }
 p { margin-bottom:15px; }
