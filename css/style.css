@@ -17,7 +17,7 @@ body { color:#ffffff; height:100%; background:url('../images/texture.png'); marg
 /* DEFAULT FONT SETTINGS */
 /* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
 /* Font-size percentage is based on 16px browser default size */
-body, button, input, select, textarea {font: 14px/1.5 'Helvetica',Arial,Tahoma,sans-serif; *font-size: 1em; color: #ffffff} /* IE7 and older can't resize px based text */
+body, button, input, select, textarea {font: 14px/1.5 'Roboto',Arial,Tahoma,sans-serif; *font-size: 1em; color: #ffffff} /* IE7 and older can't resize px based text */
 p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, img {margin: 0 0 1.5em; padding: 0}
 
 /* TYPOGRAPHY */
@@ -107,11 +107,11 @@ span.amp{font-family:Adobe Caslon Pro,Baskerville,"Goudy Old Style","Palatino","
 /* DEFAULT MOBILE STYLE */
 body {width: 100%; margin: 0 auto} /* Center page without wrapper */
 
-h1 { color:#ffffff; margin-left:30px; margin-right:30px; margin-bottom:15px; *margin-bottom:25px;}
-h2 { font-size:22px; color:white; margin-left:30px; margin-right:30px; margin-bottom: 20px; line-height:25px; }
+h1 { color:#ffffff; margin-left:20px; margin-right:20px; margin-bottom:15px; *margin-bottom:25px;}
+h2 { font-size:22px; color:white; margin-left:20px; margin-right:20px; margin-bottom: 20px; line-height:25px; }
 .container { position:absolute; top:5%; width:100%; vertical-align: middle; display:block; position:relative; }
 .full { width:96%; max-width:550px; margin:0px auto; vertical-align: middle; padding-bottom:20px; }
-p { margin-bottom:15px; margin-left:30px; margin-right:30px; }
+p { margin-bottom:15px; margin-left:20px; margin-right:20px; }
 p.intro { font-size:18px; font-family:'Georgia',Georgia,'Times New Roman',serif; }
 p span { color:#a2e0e9; }
 
