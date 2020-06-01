@@ -1,0 +1,62 @@
+html { font-weight: 400; font-family: 'Nunito Sans', sans-serif; font-size:16px;  }
+			body { background-color: #fffffe;  }
+			h1 { color: #272343; font-weight: 700; font-size:28px; line-height:1.2em; margin-bottom: 1.0em; margin-top:30px; }
+			h2 { color: #272343; font-weight: 400; font-size:21px; line-height:1.2em; margin-bottom: 2em; }
+			h3 { color: #867209; font-weight: 700; font-size:20px; line-height:1.2em; margin-bottom: 1.2em; }
+			h4 { color: #272343; font-weight: 700; font-size:18px; line-height:1.2em; margin-bottom: 0.75em; }
+			h5 { color: #272343; font-weight: 700; font-size:18px; line-height:1.2em; margin-bottom: 0.75em; }
+			p,a,li {  font-weight: 400; font-size:16px; line-height:1.2em; margin-bottom: 1.5em;  }
+			p { line-height:1.4em; }
+			ul { margin-left: 20px; }
+			li { margin-bottom:5px; list-style-type: circle;}
+
+			.page {
+				max-width:1000px;
+				margin:0px auto;
+			}
+
+			.myBackButton { margin-top:30px; display:block; }
+			
+			h1, h2, h3, .myBackButton { padding-left:20px; padding-right:20px; }
+			.portfolio {
+				margin-bottom:60px; vertical-align: top; padding-left:20px; padding-right: 20px; display:block;
+			}
+			.casestudies .portfolio {
+				padding-left:20px; padding-right: 20px; 
+			}
+
+			.casestudies h4 { color: #272343; font-weight: 700; font-size:24px; margin-bottom: 0.75em; }
+
+			a {color: #53a0a0}
+
+			.myButton {
+				background-color:#ffd803;
+				margin-top: 1.8rem;
+				border-radius:3px;
+				display:inline-block;
+				cursor:pointer;
+				color:#272343;
+				font-size:16px;
+				padding:12px 18px;
+				text-decoration:none;
+				padding: 1.2rem 2rem;
+    			border-radius: 3px;
+			    font-size: 1.1rem;
+			    font-weight: 700;
+			}
+
+			.myButton:hover { box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6); }
+
+			@media only screen and (min-width: 650px) {
+				.casestudies .portfolio {
+					width: 40%; padding-left:3%; padding-right: 3%; display:inline-block; 
+				}
+
+				h1, h2, h3, .myBackButton { padding-left:3%; padding-right: 3%; }
+				.portfolio {
+					margin-bottom:60px; vertical-align: top; width: 93%; padding-left:3%; padding-right: 3%; display:block;
+				}
+				.casestudies .portfolio {
+					padding-left:3%; padding-right: 3%; 
+				}
+			}
