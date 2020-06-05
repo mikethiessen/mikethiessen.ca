@@ -9,6 +9,15 @@
 		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-34278892-1', 'auto');
+          ga('send', 'pageview');
+        </script>
 	</head>
 
 	<body>
@@ -19,7 +28,7 @@
 
 			<h1>U.S. Department of Defense</h1>
 
-			<h2>The American Forces Travel (AFT) website required military members to verify their status with the U.S. Department of Defense before they were able to view exclusive travel discounts. I implemented user flow tracking through Google Analytics. I was reviewing the data and found that a large percentage of eligible users visiting the site were not going through the authorization process so they were never seeing the travel deals available to them.</h2>
+			<h2>The American Forces Travel (AFT) website required military members to verify their status with the U.S. Department of Defense before they were able to view exclusive travel discounts. I had implemented user flow tracking through Google Analytics and was reviewing the data and found that a large percentage of eligible users visiting the site were not going through the authorization process so they were never seeing the travel deals available to them. I wanted to find out why and see if I could make improvements.</h2>
 
 			<h3>1. Empathize</h3>
 
@@ -27,7 +36,7 @@
 
 				<h4>User Research</h4>
 
-				<p>We could not speak directly to any of the military members so instead I used usertesting.com to speak to them. I created a user test targeting members of the military and had them visit the site.</p>
+				<p>We could not speak directly to any of the military members so instead I used usertesting.com to ask them questions. I created a user test targeting members of the military and had them visit the site and answer questions.</p>
 
 				<p>Usertesting.com allows us to create a 5-second test which allowed me to show the home page to a user for 5 seconds to see what immediately stood out to them.</p>
 
@@ -50,9 +59,11 @@
 
 				<p>After reviewing the results of the user tests it was clear there were 2 important issues I needed to focus on for our design updates.</p>
 
+				<h5>Issues to focus on:</h5>
+
 				<ol>
 					<li>Users did not understand that the website was a product of the U.S. Department of Defense.</li>
-					<li>Users were not comfortable entering their SIN number to access the website.
+					<li>Users were not comfortable entering their SIN number to access the website. Users were not clicking any of the links that would provide them information about their data privacy.</li>
 				</ol>
 			</div>
 
@@ -69,22 +80,16 @@
 
 				<h4>UI Design</h4>
 
-				<p>I then created a new design for a phone agent version of our ecommerce platform which included the ideas from our design studio. I also needed to work within the Pricelinen design system using existing components when necessary.</p>
+				<p>I then created a <a href="#design-examples">new design</a> for the authorization page focusing on the issues listed above.</p>
 
-				<h5>The design below included a lot of the ideas generated from our design studio. Some of these incuded:</h5>
+				<h5>Changes in <a href="#design-examples">the new design</a> included:</h5>
 
 				<ol>
-					<li>Implementing a "scratchpad" at the top of the screen where the agent could add personal information the caller had given them that would then populate the checkout form later in the process.</li>
-					<li>A map tool that would allow the agent add a map pin for a point of interest making it easier to find hotels near that location.</li>
-					<li>An inline tab system within the search results which would allow agents to quickly compare important information between hotel options.</li>
-					<li>A hotel score for both cleanliness and location which were both common questions customers had about hotels.</li>
-					<li>The hotel amenities filters were pushed higher up the page because they were used more often.</li>
+					<li>Scaling back on the amount of content and visual design elements. We removed any marketing content that was promoting the value of the site and focused more on data privacy.</li>
+					<li>Updating the imagery to hopefully make the site feel more trustworthy. This included making the Department of Defense logo more prominent and included the MWR logo for each branch of the military.</li>
+					<li>Making the information about data privacy more prominent instead of hiding it behind a click.</li>
+					<li>Provide easy access to information on how their eligibility would be verified and use terms they would already be familiar with.</li>
 				</ol>
-
-				<figure>
-				    <img src="https://via.placeholder.com/1000x400" alt="Hotel search results page">
-				    <figcaption>Hotel search results page</figcaption>
-				</figure>
 			</div>
 
 			<h3>5. Test</h3>
@@ -93,23 +98,27 @@
 
 				<h4>User Feedback</h4>
 
-				<p>We then took these designs and we reviewed then with some of the same phone agents that had completed the survey. The agents provided valuable feedback that we then incorporated into the next iteration of the design.</p>
+				<p>Before sending these designs to the development team we got feedback on it from military members using usertesting.com. The new design sounded very promising when almost ever single person we spoke to said they would be comfortable using the site and submitting their pesonal data.</p>
+
+				<h4>Analytics Review</h4>
+
+				<p>We had the development team implement the new design. I reviewed the user flow data for people accessing the new site and compare it to the data for the same dates from the previous year. The new design was a large succcess. We saw an immediate increase in the number of people who were completing the authorization process.</p>
+			</div>
+
+			<h3 id="design-examples">The New Design</h3>
+
+			<div class="portfolio">
+
+				<figure>
+					<figcaption>Authorization Page</figcaption>
+				    <a href="images/aft-auth-page.jpg" target="_blank"><img src="images/aft-auth-page.jpg" alt="Authorization page"></a>
+				</figure>
 			</div>
 
 			<div class="portfolio">
 
-				Next Case Study: <a href="priceline.html">&#8594; Priceline Phone Agent Platform</a>
+				Next Case Study: <a href="priceline.html">&#8594; Priceline Phone Agents</a>
 			</div>
 		</div>
 	</body>
-
-	<script>
-	  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	  ga('create', 'UA-34278892-1', 'auto');
-	  ga('require', 'GTM-59X75T2');
-	  ga('send', 'pageview');
-	</script>
 </html>
