@@ -1,70 +1,155 @@
 html { font-weight: 400; font-family: 'Nunito Sans', sans-serif; font-size:16px;  }
-			body { background-color: #fffffe;  }
-			h1 { color: #272343; font-weight: 700; font-size:28px; line-height:1.2em; margin-bottom: 1.0em; margin-top:30px; }
-			h2 { color: #272343; font-weight: 400; font-size:21px; line-height:1.2em; margin-bottom: 2em; }
-			h3 { color: #867209; font-weight: 700; font-size:20px; line-height:1.2em; margin-bottom: 1.2em; }
-			h4 { color: #272343; font-weight: 700; font-size:18px; line-height:1.2em; margin-bottom: 0.75em; }
-			h5 { color: #272343; font-weight: 700; font-size:16px; line-height:1.2em; margin-bottom: 0.75em; }
-			p,li {  font-weight: 400; font-size:16px; line-height:1.2em; margin-bottom: 1.5em;  }
-			p { line-height:1.4em; }
-			ul,ol { margin-left: 20px; }
-			li { margin-bottom:5px; list-style-type: circle;}
+body { background-color: #fffffe;  }
+h1 { color: #272343; font-weight: 700; font-size:28px; line-height:1.2em; margin-bottom: 1.0em; margin-top:30px; }
+h2 { color: #272343; font-weight: 400; font-size:20px; line-height:1.4em; margin-bottom: 2em; }
+h3 { color: #867209; font-weight: 700; font-size:22px; line-height:1.2em; margin-bottom: 1.2em; }
+h4 { color: #272343; font-weight: 700; font-size:20px; line-height:1.2em; margin-bottom: 0.75em; }
+h5 { color: #272343; font-weight: 700; font-size:16px; line-height:1.2em; margin-bottom: 0.75em; }
+p,a,li {   font-size:16px; line-height:1.4em; margin-bottom: 1.5em;  }
+p { line-height:1.4em; }
+ul,ol { margin-left: 20px; margin-bottom:15px; }
+ul li { margin-bottom:5px; list-style-type: circle;}
+ol { list-style-type: decimal; }
+ol li { margin-bottom:5px; }
 
-			.page {
-				max-width:1000px;
-				margin:0px auto;
-			}
+.page {
+	max-width:1000px;
+	margin:0px auto;
+}
 
-			.myBackButton { margin-top:30px; display:block; }
+.myBackButton { margin-top:30px; display:block; }
 
-			img { max-width: 100%; min-width:100%; height:auto; margin-bottom:30px; -webkit-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.23);
--moz-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.23);
-box-shadow: 0px 0px 16px -2px rgba(0,0,0,0.23);}
-			
-			h1, h2, h3, .myBackButton { padding-left:20px; padding-right:20px; }
-			.portfolio {
-				margin-bottom:60px; vertical-align: top; padding-left:20px; padding-right: 20px; display:block;
-			}
-			.casestudies .portfolio {
-				padding-left:20px; padding-right: 20px; 
-			}
+h1, h2, h3, .myBackButton { padding-left:20px; padding-right:20px; }
+.portfolio {
+	margin-bottom:60px; vertical-align: top; padding-left:20px; padding-right: 20px; display:block;
+}
+.casestudies .portfolio {
+	padding-left:20px; padding-right: 20px; 
+}
+
+img { max-width:100%; height:auto; margin-top:30px; -webkit-box-shadow: 3px 3px 30px -19px rgba(0,0,0,0.72);
+-moz-box-shadow: 3px 3px 30px -19px rgba(0,0,0,0.72);
+box-shadow: 3px 3px 30px -19px rgba(0,0,0,0.72);}
+
+figcaption { margin-top:5px; font-size:14px; }
+
+.casestudies h4 { color: #272343; font-weight: 700; font-size:24px; margin-bottom: 0.75em; }
+
+a {color: #53a0a0}
+
+header {
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-top:0px;
+	background: #f4f4f7;
+}
+header .page span,
+header .page address,
+header .page .contact {
+	padding-left:3%;
+	padding-right:3%;
+}
+header .page address,
+header .page .contact {
+	display:none;
+}
+address {
+	margin-bottom:15px;
+	margin-top:15px;
+}
 
 
 
-			figcaption { font-size:14px; padding-bottom:10px; }
+.myButton {
+	background-color:#ffd803;
+	margin-top: 1.8rem;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	color:#272343;
+	font-size:16px;
+	padding:12px 18px;
+	text-decoration:none;
+	padding: 1.2rem 2rem;
+	border-radius: 3px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 
-			.casestudies h4 { color: #272343; font-weight: 700; font-size:24px; margin-bottom: 0.75em; }
+.myButton:hover { box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6); }
 
-			a {color: #337d7d;}
 
-			.myButton {
-				background-color:#ffd803;
-				margin-top: 1.8rem;
-				border-radius:3px;
-				display:inline-block;
-				cursor:pointer;
-				color:#272343;
-				font-size:16px;
-				padding:12px 18px;
-				text-decoration:none;
-				padding: 1.2rem 2rem;
-    			border-radius: 3px;
-			    font-size: 1.1rem;
-			    font-weight: 700;
-			}
+@media only screen and (min-width: 650px) {
+	.casestudies .portfolio {
+		width: 40%; padding-left:3%; padding-right: 3%; display:inline-block; 
+	}
 
-			.myButton:hover { box-shadow: 0 5px 15px -10px rgba(31, 18, 53, 0.6); }
+	h1, h2, h3, .myBackButton { padding-left:3%; padding-right: 3%; }
+	.portfolio {
+		margin-bottom:60px; vertical-align: top; width: 93%; padding-left:3%; padding-right: 3%; display:block;
+	}
+	.casestudies .portfolio {
+		padding-left:3%; padding-right: 3%; 
+	}
+}
 
-			@media only screen and (min-width: 650px) {
-				.casestudies .portfolio {
-					width: 40%; padding-left:3%; padding-right: 3%; display:inline-block; 
-				}
+@media only screen and (min-width: 750px) {
+	.col-small {
+		display: inline-block;
+		width: 30%;
+		float:right;
+	}
 
-				h1, h2, h3, .myBackButton { padding-left:3%; padding-right: 3%; }
-				.portfolio {
-					margin-bottom:60px; vertical-align: top; width: 93%; padding-left:3%; padding-right: 3%; display:block;
-				}
-				.casestudies .portfolio {
-					padding-left:3%; padding-right: 3%; 
-				}
-			}
+	.col-large {
+		display: inline-block;
+		width: 66%;
+		float:left;
+		margin-left:11px;
+	}
+}
+
+
+p.timeline {
+	margin-top:-10px; color: #6f7082;
+}
+
+@media print {
+	.h1 { color: #272343; font-weight: 700; font-size:28px; line-height:1.2em; margin-bottom: 1.0em; }
+	header {
+		padding-top:30px;
+		padding-bottom:30px;
+		margin-top:0px;
+		background: #f4f4f7;
+	}
+	header .page span,
+	header .page address,
+	header .page .contact {
+		display:block;
+		padding-left:6%;
+		padding-right:6%;
+	}
+	address,
+	address p,
+	address a {
+		margin-bottom:15px;
+		margin-top:15px;
+		line-height:1.5em;
+	}
+	@page {
+	    size: auto;   /* auto is the initial value */
+	    margin: 0;  /* this affects the margin in the printer settings */
+	}
+	.casestudies .portfolio {
+		width: 40%; padding-left:6%; padding-right: 6%; display:inline-block; 
+	}
+
+	h1, h2, h3, .myBackButton { padding-left:6%; padding-right: 6%; }
+	.portfolio {
+		margin-bottom:40px; vertical-align: top; width: 88%; padding-left:6%; padding-right: 6%; display:block;
+	}
+	.casestudies .portfolio {
+		padding-left:6%; padding-right: 6%; 
+	}
+
+	.page-break {page-break-before: always; padding-top:50px;}
+}
