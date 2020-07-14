@@ -37,6 +37,14 @@ box-shadow: 3px 3px 30px -19px rgba(0,0,0,0.72);}
 }
 
 figcaption { margin-top:5px; font-size:14px; }
+.align-right {
+
+	margin:0px 0px 20px 0px;
+}
+.full-image {
+	margin-left:20px;
+	margin-right:20px;
+}
 
 .casestudies h4 { color: #272343; font-weight: 700; font-size:24px; margin-bottom: 0.75em; }
 
@@ -124,6 +132,12 @@ nav a.active {
 		padding-left:3%;
 		padding-right:15px;
 	}
+	.align-right {
+		float:right; 
+		margin:0px 0px 20px 20px;
+		max-width:400px;
+		height:auto;
+	}
 }
 
 @media only screen and (min-width: 375px) {
@@ -163,7 +177,9 @@ p.timeline {
 }
 
 @media print {
-	.h1 { color: #272343; font-weight: 700; font-size:28px; line-height:1.2em; margin-bottom: 1.0em; }
+	.h1 { color: #272343; font-weight: 700; font-size:28px; line-height:1.2em; margin-bottom: 0px; }
+	h1 { display:none; }
+	h2 { margin-top: 30px; }
 	header {
 		padding-top:30px;
 		padding-bottom:30px;
