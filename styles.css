@@ -83,11 +83,12 @@ header .page span {
 }
 
 .half-image {
-	width: 100%;
+	width: auto;
 	display:block;
 	margin-left:20px;
 	margin-right:20px;
-	margin-top:10px;
+	margin-bottom:10px;
+	vertical-align: top;
 }
 
 .myButton {
@@ -146,10 +147,11 @@ nav a.active {
 	}
 
 	.half-image {
-		width: 46%;
+		width: 45%;
 		display:inline-block;
 		margin-left:2%;
 		margin-right:2%;
+		vertical-align: top;
 	}
 	
 	
