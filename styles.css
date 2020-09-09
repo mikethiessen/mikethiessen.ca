@@ -77,6 +77,19 @@ header .page span {
 	color: white;
 }
 
+.compare {
+	display:block;
+	width:100%;
+}
+
+.half-image {
+	width: 100%;
+	display:block;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:10px;
+}
+
 .myButton {
 	background-color:#ffd803;
 	margin-top: 1.8rem;
@@ -126,6 +139,20 @@ nav a.active {
 	.casestudies .portfolio {
 		padding-left:3%; padding-right: 3%; 
 	}
+	
+	.compare {
+		display:block;
+		width:100%;
+	}
+
+	.half-image {
+		width: 46%;
+		display:inline-block;
+		margin-left:2%;
+		margin-right:2%;
+	}
+	
+	
 	header .page span,
 	header .page address,
 	header .page .contact {
